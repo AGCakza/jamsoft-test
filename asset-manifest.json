@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/jamsoft-test/static/css/main.6188e689.chunk.css",
-    "main.js": "/jamsoft-test/static/js/main.142ba766.chunk.js",
-    "main.js.map": "/jamsoft-test/static/js/main.142ba766.chunk.js.map",
+    "main.css": "/jamsoft-test/static/css/main.e90b3a1e.chunk.css",
+    "main.js": "/jamsoft-test/static/js/main.1fb59436.chunk.js",
+    "main.js.map": "/jamsoft-test/static/js/main.1fb59436.chunk.js.map",
     "runtime-main.js": "/jamsoft-test/static/js/runtime-main.cf6bc8c0.js",
     "runtime-main.js.map": "/jamsoft-test/static/js/runtime-main.cf6bc8c0.js.map",
     "static/css/2.95ff951f.chunk.css": "/jamsoft-test/static/css/2.95ff951f.chunk.css",
@@ -10,14 +10,14 @@
     "static/js/2.5120442e.chunk.js.map": "/jamsoft-test/static/js/2.5120442e.chunk.js.map",
     "index.html": "/jamsoft-test/index.html",
     "static/css/2.95ff951f.chunk.css.map": "/jamsoft-test/static/css/2.95ff951f.chunk.css.map",
-    "static/css/main.6188e689.chunk.css.map": "/jamsoft-test/static/css/main.6188e689.chunk.css.map",
+    "static/css/main.e90b3a1e.chunk.css.map": "/jamsoft-test/static/css/main.e90b3a1e.chunk.css.map",
     "static/js/2.5120442e.chunk.js.LICENSE.txt": "/jamsoft-test/static/js/2.5120442e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.cf6bc8c0.js",
     "static/css/2.95ff951f.chunk.css",
     "static/js/2.5120442e.chunk.js",
-    "static/css/main.6188e689.chunk.css",
-    "static/js/main.142ba766.chunk.js"
+    "static/css/main.e90b3a1e.chunk.css",
+    "static/js/main.1fb59436.chunk.js"
   ]
 }
