@@ -16,7 +16,7 @@ const App = () => {
 
   return(
     <div className='container'>
-      <TodoAdd useAddItem={useAddItem} resetDone={resetDone} />
+      <TodoAdd useAddItem={useAddItem} resetDone={resetDone} progress={progress} />
       <Loader value={progress} />
       <DragDropContext
       onDragEnd={onDragEnd}

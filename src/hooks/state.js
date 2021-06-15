@@ -3,6 +3,7 @@ import React from 'react'
 const useState = () => {
     const [state, setState] = React.useState([])
     const [progress, setProgress] = React.useState(0)
+
     React.useEffect(() => {
         const data = JSON.parse(localStorage.getItem('state'))
         if(data) {

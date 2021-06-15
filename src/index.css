@@ -28,7 +28,7 @@ code {
 
 .TodoItem {
   background-color: #fff;
-  border: 2px solid #000;
+  border: 2px solid rgba(0,0,0,.5);
   padding: 20px;
   margin: 20px 0;
   border-radius: 5px;
@@ -44,10 +44,10 @@ code {
   align-items: center;
   gap: 10px;
 }
-.TodoItem.done label {
+.TodoItem label {
   width: 100%;
 }
-.TodoItem.done label span {
+.TodoItem label span {
   width: 100%;
 }
 .TodoItem.done label span input {
@@ -63,7 +63,18 @@ code {
   height: 100%!important;
   margin: 0!important;
   width: 100%!important;
-  border: 0!important;
+  border: none!important;
+}
+
+.todoAdd-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: 0 0 25px 0;
+}
+.todoAdd-wrapper p {
+  margin: 0;
+  color: rgba(0,0,0,.5);
 }
 
 .todoAdd {

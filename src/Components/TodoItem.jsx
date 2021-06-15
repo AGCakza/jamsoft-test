@@ -23,12 +23,12 @@ const TodoItem = ({
                     <label htmlFor={obj.id}>
                         <input checked={obj.done} type="checkbox" id={obj.id} name={obj.id} onChange={handleChange}/>
                         <span className=''>
-                            <input onChange={onChange} className='TodoItem__input' id={obj.id} disabled={!obj.isEditing} type='text' value={obj.text} />
+                            <input onChange={onChange} maxlength='90' className='TodoItem__input' id={obj.id} disabled={!obj.isEditing} type='text' value={obj.text} />
                         </span>
                     </label>
                     <div className='TodoItem__btns'>
                         <i className="material-icons">drag_handle</i>
-                        <i className="material-icons" onClick={Edit} id={obj.id} >edit</i>
+                        <i className="material-icons" onClick={Edit} id={obj.id}>{obj.isEditing ? 'save' : 'edit'}</i>
                         <i onClick={deleteItem} id={obj.id} className='material-icons'>clear</i>
                     </div>
                 </div>
